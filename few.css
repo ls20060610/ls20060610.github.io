@@ -1,0 +1,199 @@
+
+ul, li {
+    margin: 0 ;
+    padding: 0;
+    list-style: circle;
+    
+}
+#abc {
+	width:300px;
+	line-height: 50px;
+	float:left;
+}
+#abc2 {
+	width:300px;
+	line-height: 50px;
+	float:left;
+}
+#qaContent {
+    width: 645px;
+    line-height: 50px;
+    text-align: center;
+    float:left;
+}
+
+
+#qaContent ul.accordionPart {
+    margin: 1px 100px 1px 100px;
+
+
+}
+#qaContent ul.accordionPart li {
+    border-bottom: solid 1px #D1A6A3;
+    padding-bottom: 12px;
+    margin-top: 12px;
+}
+#qaContent ul.accordionPart li .qa_title {
+    background: url(icon_q_a.gif) no-repeat 0px 3px;
+    padding-left: 28px;
+    color: #1186ec;
+    cursor: pointer;
+}
+#qaContent ul.accordionPart li .qa_title_on {
+    text-decoration: underline;
+}
+#qaContent ul.accordionPart li .qa_content {
+    margin: 6px 0 0;
+    background: url(icon_q_a.gif) no-repeat 0px -24px;
+    padding-left: 28px;
+    color: #ED2F21;
+}
+
+ body {
+            background-image: url("https://studio87blog.files.wordpress.com/2016/01/white-marble-2048.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }  
+#gotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;    
+    padding: 10px 15px;
+    background: #777;
+    color: white;
+    cursor: pointer;
+	}      
+
+
+marquee{
+    font-size: 35px;
+    font-family:Segoe Print;
+    color:black;
+    background-color:#F9EBEA; 
+  }
+  html, body {
+  background: #F7F5E6;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.slider {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.slide_viewer {
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide_group {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slide:nth-of-type(1) {
+  background: #D7A151;
+}
+
+.slide:nth-of-type(2) {
+  background: #F4E4CD;
+}
+
+.slide:nth-of-type(3) {
+  background: #C75534;
+}
+
+.slide:nth-of-type(4) {
+  background: #D1D1D4;
+}
+
+.slide_buttons {
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+a.slide_btn {
+  color: #474544;
+  font-size: 42px;
+  margin: 0 0.175em;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide_btn.active, .slide_btn:hover {
+  color: #428CC6;
+  cursor: pointer;
+}
+
+.directional_nav {
+  height: 340px;
+  margin: 0 auto;
+  max-width: 940px;
+  position: relative;
+  top: -340px;
+}
+
+.previous_btn {
+  bottom: 0;
+  left: 100px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
+
+.next_btn {
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  right: 100px;
+  top: 0;
+}
+
+.previous_btn, .next_btn {
+  cursor: pointer;
+  height: 65px;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  width: 65px;
+}
+
+.previous_btn:hover, .next_btn:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .previous_btn {
+    left: 50px;
+  }
+  .next_btn {
+    right: 50px;
+  }
+}
